@@ -38,3 +38,17 @@ def get_relations(abstract_div):
 
 
 documents_tags = get_page_documents_grouped_tags('https://arxiv.org/list/quant-ph/new')
+
+documents = []
+
+for document_tags in documents_tags:
+    documents.append({
+        'author': get_author_names(document_tags['author']),
+        'title': get_title(document_tags['title']),
+        'subjects': get_subjects(document_tags['subjects']),
+        # 'comments': get_comments(document_tags['comments']),
+        'link': get_link(document_tags['link']),
+        'content': get_relations(document_tags['content']),
+    })
+
+print(documents[0])
