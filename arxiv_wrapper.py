@@ -52,13 +52,28 @@ def get_relations(abstract_div):
     for sentence in comma_split_sentences:
         relation = None
         actors = ([], [])
-        for word, clazz in sentence:
+        for index, (word, clazz) in enumerate(sentence):
+            if len(actors[0]) == 0 and clazz in ['IN', 'CC']:
+                continue
             if relation is None and clazz not in ['VBD', 'VBP', 'VBZ', 'VBZ']:
                 actors[0].append(word)
             elif relation is None:
                 relation = word
             else:
-                actors[1].append(word)
+                if clazz == 'CC':
+                    found_verb = False
+                    for i in range(index + 1, len(sentence)):
+                        found_verb = sentence[i][1] in ['VBD', 'VBP', 'VBZ', 'VBZ']
+                        if found_verb:
+                            break
+                    if found_verb:
+                        relations.append((relation, actors))
+                        relation = None
+                        actors = ([], [])
+                    else:
+                        actors[1].append(word)
+                else:
+                    actors[1].append(word)
         if relation is not None:
             relations.append((relation, actors))
     return relations
@@ -80,4 +95,4 @@ for document_tags in documents_tags:
 
 import pprint
 
-pprint.PrettyPrinter(4).pprint(documents[0]['content'])
+pprint.PrettyPrinter(4, 200).pprint(documents[0]['content'])
