@@ -1,3 +1,4 @@
+import nltk
 import requests
 from bs4 import BeautifulSoup
 
@@ -34,7 +35,33 @@ def get_link(link_div):
 
 
 def get_relations(abstract_div):
-    return abstract_div.text
+    text = abstract_div.text
+    sentences = nltk.sent_tokenize(text)
+    tokenized_sentences = [nltk.word_tokenize(sentence) for sentence in sentences]
+    tagged_sentences = [nltk.pos_tag(sentence) for sentence in tokenized_sentences]
+    comma_split_sentences = []
+    for tagged_sentence in tagged_sentences:
+        comma_split_sentences.append([])
+        for word, clazz in tagged_sentence:
+            if clazz is not ',':
+                comma_split_sentences[len(comma_split_sentences) - 1].append((word, clazz))
+            else:
+                comma_split_sentences.append([])
+
+    relations = []
+    for sentence in comma_split_sentences:
+        relation = None
+        actors = ([], [])
+        for word, clazz in sentence:
+            if relation is None and clazz not in ['VBD', 'VBP', 'VBZ', 'VBZ']:
+                actors[0].append(word)
+            elif relation is None:
+                relation = word
+            else:
+                actors[1].append(word)
+        if relation is not None:
+            relations.append((relation, actors))
+    return relations
 
 
 documents_tags = get_page_documents_grouped_tags('https://arxiv.org/list/quant-ph/new')
@@ -50,3 +77,7 @@ for document_tags in documents_tags:
         'link': get_link(document_tags['link']),
         'content': get_relations(document_tags['content']),
     })
+
+import pprint
+
+pprint.PrettyPrinter(4).pprint(documents[0]['content'])
