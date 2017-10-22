@@ -1,0 +1,619 @@
+C:\ProgramData\Anaconda\python.exe C:/Users/pedro/Documents/Projects/arxiv_extractor/arxiv_extractor.py
+0
+Polarization of light is harnessed in an abundance of classical and quantum applications.
+('Polarization', ['of light'])
+('harnessed', ['is'])
+('abundance', ['an', 'of classical and quantum applications'])
+
+
+Characterizing polarization in a classical sense is done resoundingly successfully using the Stokes parameters, and numerous proposals offer new quantum counterparts of this characterization.
+('polarization', ['in a classical sense'])
+('offer', [])
+('Stokes', ['the'])
+
+
+The latter often rely on distance measures from completely polarized or unpolarized light.
+('latter', ['The'])
+('rely', [])
+('distance', [])
+
+
+We here show that the accepted class of perfectly polarized quantum states of light is severely lacking in terms of both pure states and mixed states.
+('class', ['the', 'of perfectly polarized quantum states of light'])
+('mixed', [])
+('class', ['the', 'of perfectly polarized quantum states of light'])
+
+
+By appealing to symmetry and geometry arguments we determine all of the states corresponding to perfect polarization, and show that the accepted class of completely polarized quantum states is only a subset of our result.
+('symmetry', [])
+('is', ['only'])
+('symmetry', [])
+
+
+We use this result to reinterpret the canonical degree of polarization, commenting on its interpretation for classical and quantum light.
+('result', ['this'])
+('commenting', [])
+('result', ['this'])
+
+
+Our results are necessary for any further characterizations of light's polarization.
+('results', ['Our'])
+('are', [])
+('necessary', [])
+
+
+1
+We study how quantum randomness generation based on unbiased measurements on a hydrogen-like atom can get compromised by virtue of the unavoidable coupling of the atom with the electromagnetic field.
+('quantum', ['based on unbiased measurements on a hydrogen-like atom'])
+('compromised', ['get'])
+('quantum', ['based on unbiased measurements on a hydrogen-like atom'])
+
+
+Concretely, we show that an adversary with access to the quantum EM field, but not the atom, can perform an attack on the randomness of a set of unbiased quantum measurements.
+('adversary', ['an', 'with access to the quantum EM field'])
+('perform', [])
+('adversary', ['an', 'with access to the quantum EM field'])
+
+
+We analyze the light-atom interaction in 3+1 dimensions with no single-mode or rotating-wave approximations.
+('interaction', ['the', 'light-atom', 'in 3 +1 dimensions'])
+('analyze', [])
+('interaction', ['the', 'light-atom', 'in 3 +1 dimensions'])
+
+
+In our study, we also take into account the non-pointlike nature of the atom and the exchanges of angular momentum between atom and field and compare with previous results obtained under scalar approximations.
+('study', ['our'])
+('obtained', [])
+('account', [])
+
+
+We show that preparing the atom in the ground state in the presence of no field excitations is, in general, not the safest state to generate randomness in atomic systems (such as trapped ions or optical lattices).
+('atom', ['the', 'in the ground state in the presence of no field excitations'])
+('generate', [])
+('atom', ['the', 'in the ground state in the presence of no field excitations'])
+
+
+2
+We study electron transfer between two separated nuclei using local control theory.
+('electron', ['between two separated nuclei using local control theory'])
+('using', [])
+('electron', ['between two separated nuclei using local control theory'])
+
+
+By conditioning the algorithm in a symmetric system formed by two protons, one can favored slow transfer processes, where tunneling is the main mechanism, achieving transfer efficiencies close to unity assuming fixed nuclei.
+('algorithm', ['the', 'in a symmetric system formed by two protons'])
+('fixed', ['assuming'])
+('algorithm', ['the', 'in a symmetric system formed by two protons'])
+
+
+The solution can be parametrized using sequences of pump and dump pi pulses, where the pump pulse is used to excite the electron to a highly excited state where the time for tunneling to the target nuclei is on the order of femtoseconds.
+('solution', ['The'])
+('is', [])
+('sequences', ['of pump'])
+
+
+The time delay must be chosen to allow for full population transfer via tunneling, and the dump pulse is chosen to remove energy from the state to avoid tunneling back to the original proton.
+('time', ['The'])
+('tunneling', [])
+('population', ['full', 'via tunneling'])
+
+
+Finally, we study the effect of the nuclear kinetic energy on the transfer efficiency.
+('effect', ['the', 'of the nuclear kinetic energy on the transfer efficiency'])
+('study', [])
+('effect', ['the', 'of the nuclear kinetic energy on the transfer efficiency'])
+
+
+Even in the absence of relative motion between the protons, the spreading of the nuclear wave function is enough to reduce the yield of electronic transfer to less than one half.
+('absence', ['the', 'of relative motion between the protons'])
+('reduce', [])
+('enough', [])
+
+
+3
+We show that maximal families of mutually unbiased bases are characterized in all dimensions by partitioned unitary error bases, up to a choice of a family of Hadamards.
+('families', ['maximal', 'of mutually unbiased bases'])
+('characterized', ['are'])
+('families', ['maximal', 'of mutually unbiased bases'])
+
+
+Furthermore, we give a new construction of partitioned unitary error bases, and thus maximal families of mutually unbiased bases, from a finite field, which is simpler and more direct than previous proposals.
+('construction', ['a', 'new', 'of partitioned unitary error bases , and thus maximal families', 'of mutually unbiased bases'])
+('is', [])
+('construction', ['a', 'new', 'of partitioned unitary error bases , and thus maximal families', 'of mutually unbiased bases'])
+
+
+We introduce new tensor diagrammatic characterizations of maximal families of mutually unbiased bases, partitioned unitary error bases, and finite fields as algebraic structures defined over Hilbert spaces.
+('characterizations', ['new', 'tensor', 'diagrammatic', 'of maximal families of mutually unbiased bases , partitioned unitary error bases , and finite fields'])
+('defined', [])
+('characterizations', ['new', 'tensor', 'diagrammatic', 'of maximal families of mutually unbiased bases , partitioned unitary error bases , and finite fields'])
+
+
+4
+We develop a quantum-classical hybrid algorithm for function optimization that is particularly useful in the training of neural networks since it makes use of particular aspects of high-dimensional energy landscapes.
+('algorithm', ['a', 'quantum-classical', 'hybrid', 'for function optimization'])
+('makes', [])
+('algorithm', ['a', 'quantum-classical', 'hybrid', 'for function optimization'])
+
+
+Due to a recent formulation of semi-supervised learning as an optimization problem, the algorithm can further be used to find the optimal model parameters for deep generative models.
+('formulation', ['a', 'recent', 'of semi-supervised learning as an optimization problem'])
+('find', [])
+('model', ['the', 'optimal', 'for deep generative models'])
+
+
+In particular, we present a truncated saddle-free Newton's method based on recent insight from optimization, analysis of deep neural networks and random matrix theory.
+('Newton', ["'s"])
+('based', ['present'])
+('Newton', ["'s"])
+
+
+By combining these with the specific quantum subroutines we are able to exhaust quantum computing in order to arrive at a new quantum-classical hybrid algorithm design.
+('quantum', ['the', 'specific'])
+('arrive', [])
+('quantum', ['the', 'specific'])
+
+
+Our algorithm is expected to perform at least as well as existing classical algorithms while achieving a polynomial speedup.
+('algorithm', ['Our'])
+('achieving', [])
+('algorithms', ['classical'])
+
+
+The speedup is limited by the required classical read-out.
+('speedup', ['The'])
+('limited', ['is'])
+('read-out', ['the', 'required', 'classical'])
+
+
+Omitting this requirement can in theory lead to an exponential speedup.
+('requirement', ['this'])
+('lead', [])
+('requirement', ['this'])
+
+
+5
+The act of describing how a physical process changes a system is the basis for understanding observed phenomena.
+('act', ['The', 'of describing how a physical process changes a system is the basis for understanding'])
+('observed', [])
+('process', ['a', 'physical'])
+
+
+For quantum-mechanical processes in particular, the affect of processes on quantum states profoundly advances our knowledge of the natural world, from understanding counter-intuitive concepts to the development of wholly quantum-mechanical technology.
+('processes', ['quantum-mechanical', 'in particular'])
+('understanding', [])
+('knowledge', ['our', 'of the natural world'])
+
+
+Here, we show that quantum-mechanical processes can be quantified using a generic classical-process model through which any classical strategies of mimicry can be ruled out.
+('processes', ['quantum-mechanical'])
+('ruled', ['be'])
+('processes', ['quantum-mechanical'])
+
+
+We demonstrate the success of this formalism using fundamental processes postulated in quantum mechanics, the dynamics of open quantum systems, quantum-information processing, the fusion of entangled photon pairs, and the energy transfer in a photosynthetic pigment-protein complex.
+('success', ['the', 'of this formalism using fundamental processes postulated in quantum mechanics , the dynamics of open quantum systems , quantum-information processing , the fusion of entangled photon pairs , and the energy transfer in a photosynthetic pigment-protein complex'])
+('postulated', [])
+('success', ['the', 'of this formalism using fundamental processes postulated in quantum mechanics , the dynamics of open quantum systems , quantum-information processing , the fusion of entangled photon pairs , and the energy transfer in a photosynthetic pigment-protein complex'])
+
+
+Since our framework does not depend on any specifics of the states being processed, it reveals a new class of correlations in the hierarchy between entanglement and Einstein-Podolsky-Rosen steering and paves the way for the elaboration of a generic method for quantifying physical processes.
+('framework', ['our'])
+('quantifying', [])
+('specifics', ['any', 'of the states being processed'])
+
+
+6
+In every experimental test of a Bell inequality, we are faced with the problem of inefficient detectors.
+('test', ['every', 'experimental', 'of a Bell inequality'])
+('faced', ['are'])
+('problem', ['the', 'of inefficient detectors'])
+
+
+How we treat the events when no particle was detected has a big influence on the properties of the inequality.
+('events', ['the'])
+('has', [])
+('events', ['the'])
+
+
+In this work, we study this influence.
+('work', ['this'])
+('study', [])
+('influence', ['this'])
+
+
+We show that the choice of post-processing can change the critical detection efficiency, the equivalence between different inequalities or the applicability of the non-signaling principle.
+('choice', ['the', 'of post-processing'])
+('change', [])
+('choice', ['the', 'of post-processing'])
+
+
+We also consider the problem of choosing the optimal post-processing strategy.
+('problem', ['the', 'of choosing the optimal post-processing strategy'])
+('choosing', [])
+('problem', ['the', 'of choosing the optimal post-processing strategy'])
+
+
+We show that this is a non-trivial problem and that different strategies are optimal for different ranges of detector efficiencies.
+('problem', ['a', 'non-trivial'])
+('are', [])
+('problem', ['a', 'non-trivial'])
+
+
+7
+We present an alternative form of master equation, applicable on the analysis of non-equilibrium dynamics of fermionic open quantum systems.
+('form', ['an', 'alternative', 'of master equation'])
+('present', [])
+('form', ['an', 'alternative', 'of master equation'])
+
+
+The formalism considers a general scenario, composed by a multipartite quantum system in contact with several reservoirs, each one with a specific chemical potential and in thermal equilibrium.
+('formalism', ['The'])
+('composed', [])
+('scenario', ['a', 'general'])
+
+
+With the help of Jordan-Wigner transformation, we perform a fermion-to-qubit mapping to derive a set of Lindblad superoperators that can be straightforwardly used on a wide range of physical setups.To illustrate our approach, we explore the effect of a charge sensor, acting as a probe, over the dynamics of electrons on coupled quantum molecules.
+('help', ['the', 'of Jordan-Wigner transformation'])
+('acting', [])
+('mapping', ['a', 'fermion-to-qubit'])
+
+
+The probe consists on a quantum dot attached to source and drain leads, that allows a current flow.
+('probe', ['The'])
+('allows', [])
+('quantum', ['a'])
+
+
+The dynamics of populations, entanglement degree and purity show how the probe is behind the sudden deaths and rebirths of entanglement, at short times.
+('dynamics', ['The', 'of populations , entanglement degree and purity'])
+('is', [])
+('probe', ['the'])
+
+
+Then, the evolution leads the system to an asymptotic state being a statistical mixture.
+('evolution', ['the'])
+('being', [])
+('system', ['the', 'to an asymptotic state'])
+
+
+Those are signatures that the probe induces dephasing, a process that destroys the coherence of the quantum system.
+('probe', ['the'])
+('destroys', [])
+('probe', ['the'])
+
+
+8
+Applications that envisage utilizing the orbital angular momentum (OAM) at the single photon level assume that the OAM degrees of freedom that the photons inherit from the classical wave solutions are orthogonal.
+('Applications', [])
+('are', [])
+('angular', ['the', 'orbital'])
+
+
+To test this critical assumption, we quantize the beam-like solutions of the vector Helmholtz equation from first principles to delineate its elementary quantum mechanical degrees of freedom.
+('assumption', ['this', 'critical'])
+('delineate', [])
+('assumption', ['this', 'critical'])
+
+
+We show that although the beam-photon operators do not in general satisfy the canonical commutation relations, implying that the photon states they create are not orthogonal, the states are nevertheless bona fide eigenstates of the number and Hamiltonian operators.
+('operators', ['the', 'beam-photon'])
+('are', ['nevertheless'])
+('operators', ['the', 'beam-photon'])
+
+
+The explicit representation for the photon operators presented in this work forms a natural basis to study light-matter interactions and quantum information processing at the single photon level.
+('representation', ['The', 'explicit', 'for the photon operators presented in this work'])
+('quantum', [])
+('work', ['this'])
+
+
+9
+We present an alternative collision model to simulate the dynamics of an open quantum system.
+('collision', ['an', 'alternative'])
+('simulate', [])
+('collision', ['an', 'alternative'])
+
+
+In our model, the unit to represent the environment is, instead of the single particle, the block which is consisted of a number of environment particles.
+('model', ['our'])
+('consisted', ['is'])
+('environment', ['the'])
+
+
+The introduced blocks enable us to study the effects of different strategies of system-environment interactions and states of the blocks on the non-Markovianties.
+('blocks', ['The'])
+('study', [])
+('effects', ['the', 'of different strategies of system-environment interactions and states of the blocks'])
+
+
+We demonstrate our idea in the Gaussian channels of an all-optical system.
+('idea', ['our', 'in the Gaussian channels of an all-optical system'])
+('demonstrate', [])
+('idea', ['our', 'in the Gaussian channels of an all-optical system'])
+
+
+We show that the non-Markovianity of the channel working in the strategy that the system collides with environmental particles in each block in a certain order will be affected by the size of the block and the embedded entanglement.
+('non-Markovianity', ['the', 'of the channel working in the strategy that the system collides with environmental particles in each block in a certain order'])
+('affected', ['be'])
+('non-Markovianity', ['the', 'of the channel working in the strategy that the system collides with environmental particles in each block in a certain order'])
+
+
+We find that the effects of heating and squeezing the vacuum environmental state will quantitatively enhance the non-Markovianity.
+('effects', ['the', 'of heating and squeezing the vacuum environmental state'])
+('enhance', [])
+('effects', ['the', 'of heating and squeezing the vacuum environmental state'])
+
+
+10
+Exploiting photonic high-dimensional entanglement allows one to expand the bandwidth of quantum communication and information processing protocols through increased photon information capacity.
+('entanglement', ['photonic', 'high-dimensional'])
+('increased', [])
+('entanglement', ['photonic', 'high-dimensional'])
+
+
+However, the characterization of entanglement in higher dimensions is experimentally challenging because the number of measurements required scales unfavourably with dimension.
+('characterization', ['the', 'of entanglement in higher dimensions'])
+('required', ['unfavourably'])
+('number', ['the', 'of measurements'])
+
+
+While bounds can be used to certify high-dimensional entanglement, they do not quantify the degree to which quantum states are entangled.
+('bounds', [])
+('are', [])
+('entanglement', ['high-dimensional'])
+
+
+Here, we propose a quantitative measure that is both an entanglement measure and a dimension witness, which we coin the P-concurrence.
+('measure', ['a', 'quantitative'])
+('coin', [])
+('measure', ['a', 'quantitative'])
+
+
+We derive this measure by requiring entanglement to extend to qubit subspaces that constitute the high-dimensional state.
+('measure', ['this', 'by requiring entanglement to extend to qubit subspaces that constitute the high-dimensional state'])
+('constitute', [])
+('measure', ['this', 'by requiring entanglement to extend to qubit subspaces that constitute the high-dimensional state'])
+
+
+The computation of the P-concurrence is not contingent on reconstructing the full density matrix, and requires less measurements compared to standard quantum state tomography by orders of magnitude.
+('computation', ['The', 'of the P-concurrence'])
+('compared', ['requires'])
+('contingent', [])
+
+
+This allows for faster and more efficient characterization of high-dimensional quantum states.
+('characterization', [ParentedTree('ADJP', [ParentedTree('JJR', ['faster'])]), 'of high-dimensional quantum states'])
+('allows', [])
+('characterization', [ParentedTree('ADJP', [ParentedTree('JJR', ['faster'])]), 'of high-dimensional quantum states'])
+
+
+11
+Single-photon wave packets can carry quantum information between nodes of a quantum network.
+('wave', ['Single-photon'])
+('carry', [])
+('quantum', ['between nodes of a quantum network'])
+
+
+An important general operation in photon-based quantum information systems is blind reversal of a photon's temporal wave-packet envelope, that is, the ability to reverse an envelope without knowing the temporal state of the photon.
+('operation', ['An', 'important', 'general', 'in photon-based quantum information systems'])
+('knowing', [])
+('reversal', ['blind', "of a photon 's temporal wave-packet envelope , that is , the ability to reverse an envelope without knowing the temporal state of the photon"])
+
+
+We present an all-optical means for doing so, using nonlinear-optical frequency conversion driven by a short pump pulse.
+('means', ['an', 'all-optical', 'for doing so , using nonlinear-optical frequency conversion driven by a short pump pulse'])
+('driven', [])
+('means', ['an', 'all-optical', 'for doing so , using nonlinear-optical frequency conversion driven by a short pump pulse'])
+
+
+This scheme allows for quantum operations such as a temporal-mode parity sorter.
+('scheme', ['This'])
+('allows', [])
+('quantum', ['such as a temporal-mode parity sorter'])
+
+
+We also verify that the scheme works for arbitrary states (not only single-photon ones) of an unknown wave packet.
+('scheme', ['the'])
+('works', [])
+('scheme', ['the'])
+
+
+12
+Referring to a Fano-type model qualitative analogy we develop a comprehensive basic mechanism for the laser control of the non-Markovian bath response in strongly coupled Open Quantum Systems (OQS).
+('model', ['a', 'Fano-type'])
+('develop', [])
+('model', ['a', 'Fano-type'])
+
+
+A converged Hierarchy Equations Of Motion (HEOM) is worked out to numerically solve the master equation of a spin-boson Hamiltonian to reach the reduced electronic density matrix of a heterojunction in the presence of strong THz laser pulses.
+('converged', ['A', 'Of Motion -LRB- HEOM -RRB-'])
+('reduced', [])
+('master', ['the', 'of a spin-boson Hamiltonian to reach the reduced electronic density matrix of a heterojunction in the presence of strong THz laser pulses'])
+
+
+Robust and efficient control is achieved increasing by a factor ?2 non-Markovianity measured by the time evolution of the volume of accessible states.
+('control', [ParentedTree('JJ', ['Robust'])])
+('measured', [])
+('factor', ['a', '2'])
+
+
+The consequences of such fields on the central system populations and coherence are examined, putting the emphasis on the relation between the increase of non- Markovianity and the slowing down of decoherence processes.
+('consequences', ['The', 'of such fields on the central system'])
+('slowing', [])
+('emphasis', ['the', 'on the relation between the increase of non'])
+
+
+13
+We survey some recent work on topological quantum computation with gapped boundaries and boundary defects and list some open problems.
+('work', ['some', 'recent', 'on topological quantum computation with gapped boundaries and boundary defects'])
+('list', [])
+('work', ['some', 'recent', 'on topological quantum computation with gapped boundaries and boundary defects'])
+
+
+14
+The Schr\"{o}dinger equation ψ"(x)+κ2ψ(x)=0\psi"(x)+\kappa^2 \psi(x)=0 where κ2=k2−V(x)\kappa^2=k^2-V(x) is rewritten as a more popular form of a second order differential equation through taking a similarity transformation ψ(z)=ϕ(z)u(z)\psi(z)=\phi(z)u(z) with z=z(x)z=z(x).
+('Schr', ['The'])
+('=', [])
+('kappa', ['\\'])
+
+
+The Schr\"{o}dinger invariant IS(x)I_{S}(x) can be calculated directly by the Schwarzian derivative {z,x}\{z, x\} and the invariant I(z)I(z) of the differential equation uzz+f(z)uz+g(z)u=0u_{zz}+f(z)u_{z}+g(z)u=0.
+('Schr', ['The'])
+('u', [])
+('S', [])
+
+
+We find an important relation for moving particle as ∇2=−IS(x)\nabla^2=-I_{S}(x) and thus explain the reason why the Schr\"{o}dinger invariant IS(x)I_{S}(x) keeps constant.
+('relation', ['an', 'important', 'for moving particle as ∇ 2 = −'])
+('keeps', [])
+('relation', ['an', 'important', 'for moving particle as ∇ 2 = −'])
+
+
+As an illustration, we take the typical Heun differential equation as an object to construct a class of soluble potentials and generalize the previous results through choosing different ρ=z′(x)\rho=z'(x) as before.
+('illustration', ['an'])
+('choosing', [])
+('Heun', ['the', 'typical', "as an object to construct a class of soluble potentials and generalize the previous results through choosing different ρ = z ′ -LRB- x -RRB- \\ rho = z ' -LRB- x -RRB- as before"])
+
+
+We get a more general solution z(x)z(x) through integrating (z′)2=α1z2+β1z+γ1(z')^2=\alpha_{1}z^2+\beta_{1}z+\gamma_{1} directly and it includes all possibilities for those parameters.
+('solution', ['a', ParentedTree('RBR', ['more'])])
+('includes', [])
+('solution', ['a', ParentedTree('RBR', ['more'])])
+
+
+Some particular cases are discussed in detail.
+('cases', ['Some', 'particular'])
+('discussed', ['are'])
+('detail', [])
+
+
+15
+There is yet no satisfying, agreed-upon interpretation of the quantum-mechanical formalism.
+('interpretation', ['no', 'satisfying', 'agreed-upon', 'of the quantum-mechanical formalism'])
+('is', ['yet'])
+('interpretation', ['no', 'satisfying', 'agreed-upon', 'of the quantum-mechanical formalism'])
+
+
+Discussions of different interpretations are ongoing and sometimes hotheaded.
+('Discussions', ['of different interpretations'])
+('are', [])
+('ongoing', [])
+
+
+In this note, we want to make a clear distinction between the (mathematical) quantum formalism -- and show that there is actually more than one -- and its interpretation.
+('note', ['this'])
+('is', ['actually'])
+('distinction', ['a', 'clear', 'between the -LRB- mathematical -RRB- quantum formalism -- and show that there is actually more than one -- and its interpretation'])
+
+
+We further propose a novel (somewhat minimalistic) reading of the relative-state formalism and argue that the formalism is different from the standard Born and measurement-update rule, regardless of its interpretation.
+('reading', ['a', ParentedTree('ADJP', [ParentedTree('JJ', ['novel'])]), 'of the relative-state formalism'])
+('is', [])
+('reading', ['a', ParentedTree('ADJP', [ParentedTree('JJ', ['novel'])]), 'of the relative-state formalism'])
+
+
+To do so we consider observations of observers -- Wigner's-friend-type experiments -- the feasibility of which remains an open question.
+('observations', ['of observers'])
+('remains', [])
+('observations', ['of observers'])
+
+
+16
+We consider a dissipative evolution of parametrically-driven qubits-cavity system under the periodical modulation of coupling energy between two subsystems, which leads to the amplification of counterrotating processes.
+('evolution', ['a', 'dissipative', 'of parametrically-driven qubits-cavity system'])
+('counterrotating', [])
+('evolution', ['a', 'dissipative', 'of parametrically-driven qubits-cavity system'])
+
+
+We reveal a very rich dynamical behavior of this hybrid system.
+('behavior', ['a', ParentedTree('RB', ['very']), 'dynamical', 'of this hybrid system'])
+('reveal', [])
+('behavior', ['a', ParentedTree('RB', ['very']), 'dynamical', 'of this hybrid system'])
+
+
+In particular, we find that the energy dissipation in one of the subsystems can enhance quantum effects in another subsystem.
+('energy', ['the', 'in one of the subsystems'])
+('enhance', [])
+('energy', ['the', 'in one of the subsystems'])
+
+
+For instance, optimal cavity decay assists to stabilize entanglement and quantum correlations between qubits even in the steady state and to compensate finite qubit relaxation.
+('instance', [])
+('compensate', [])
+('entanglement', ['between qubits even in the steady state'])
+
+
+On the contrary, energy dissipation in qubit subsystem results in the enhanced photon production from vacuum for strong modulation, but destroys both quantum concurrence and quantum mutual information between qubits.
+('contrary', ['the'])
+('destroys', [])
+('photon', ['the', 'enhanced'])
+
+
+Our results provide deeper insights to nonstationary cavity quantum electrodynamics in context of quantum information processing and might be of importance for dissipative quantum state engineering.
+('results', ['Our'])
+('be', [])
+('insights', [])
+
+
+17
+Stabilizer codes are a simple and successful class of quantum error-correcting codes.
+('Stabilizer', [])
+('are', [])
+('class', ['a', ParentedTree('JJ', ['simple']), 'of quantum error-correcting codes'])
+
+
+Yet this success comes in spite of some harsh limitations on the ability of these codes to fault-tolerantly compute.
+('success', ['this'])
+('comes', [])
+('spite', ['of some harsh limitations on the ability of these codes'])
+
+
+Here we introduce a new metric for these codes, the disjointness, which, roughly speaking, is the number of mostly non-overlapping representatives of any given non-trivial logical Pauli operator.
+('metric', ['a', 'new', 'for these codes'])
+('logical', [])
+('metric', ['a', 'new', 'for these codes'])
+
+
+We use the disjointness to prove that transversal gates on error-detecting stabilizer codes are necessarily in a finite level of the Clifford hierarchy.
+('disjointness', ['the'])
+('are', ['necessarily'])
+('disjointness', ['the'])
+
+
+We also apply our techniques to topological code families to find similar bounds on the level of the hierarchy attainable by constant depth circuits, regardless of their geometric locality.
+('techniques', ['our', 'to topological code families'])
+('find', ['regardless of their geometric locality'])
+('techniques', ['our', 'to topological code families'])
+
+
+For instance, we can show that symmetric 2D surface codes cannot have non-local constant depth circuits for non-Clifford gates.
+('instance', [])
+('have', [])
+('surface', [ParentedTree('JJ', ['symmetric'])])
+
+
+18
+Wigner rotations are transformations that affect spinning particles and cause the observable phenomenon of Thomas precession.
+('Wigner', [])
+('cause', [])
+('transformations', [])
+
+
+Here we study these rotations for arbitrary symmetry groups with a semi-direct product structure.
+('rotations', ['these', 'for arbitrary symmetry groups'])
+('study', [])
+('rotations', ['these', 'for arbitrary symmetry groups'])
+
+
+In particular we establish a general link between Wigner rotations and Thomas precession by relating the latter to the holonomies of a certain Berry connection on a momentum orbit.
+('link', ['a', 'general', 'between Wigner rotations'])
+('relating', [])
+('link', ['a', 'general', 'between Wigner rotations'])
+
+
+Along the way we derive a formula for infinitesimal, Lie-algebraic transformations of one-particle states.
+('way', ['the'])
+('derive', [])
+('formula', ['a', 'for infinitesimal , Lie-algebraic transformations of one-particle states'])
+
