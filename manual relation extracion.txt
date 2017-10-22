@@ -1,0 +1,437 @@
+﻿-----------------------1---------------------
+Polarization of light
+is
+harnessed in an abundance of classical and quantum applications.
+
+Characterizing polarization in a classical sense
+is done
+resoundingly successfully using the Stokes parameters, and numerous proposals offer new quantum counterparts of this characterization.
+
+The latter often
+rely on
+distance measures from completely polarized or unpolarized light.
+
+We here
+show
+that the accepted class of perfectly polarized quantum states of light
+is
+severely lacking in terms of both pure states and mixed states.
+
+By appealing to symmetry and geometry arguments we
+determine
+all of the states corresponding to perfect polarization,
+and
+show that the accepted class of completely polarized quantum states
+is
+only a subset of our result.
+
+We
+use
+this result to reinterpret the canonical degree of polarization, commenting on its interpretation for classical and quantum light.
+
+Our results
+are
+necessary for any further characterizations of light's polarization.
+
+-----------------------2---------------------
+We
+study
+how quantum randomness generation based on unbiased measurements on a hydrogen-like atom can get compromised by virtue of the unavoidable coupling of the atom with the electromagnetic field.
+
+Concretely, we
+show
+that an adversary with access to the quantum EM field, but not the atom,
+can
+perform an attack on the randomness of a set of unbiased quantum measurements.
+
+We
+analyze
+the light-atom interaction in 3+1 dimensions with no single-mode or rotating-wave approximations.
+
+In our study, we
+also take into account
+the non-pointlike nature of the atom and the exchanges of angular momentum between atom and field and compare with previous results obtained under scalar approximations.
+
+We
+show
+that preparing the atom in the ground state in the presence of no field excitations
+is, in general,
+not the safest state to generate randomness in atomic systems (such as trapped ions or optical lattices).
+
+-----------------------3---------------------
+We
+study
+electron transfer between two separated nuclei using local control theory.
+
+By conditioning the algorithm in a symmetric system formed by two protons, one can favored slow transfer processes, where tunneling is the main mechanism, achieving transfer efficiencies close to unity assuming fixed nuclei.
+
+The solution
+can be
+parametrized using sequences of pump and dump pi pulses,
+
+where the pump pulse
+is
+used to excite the electron to a highly excited state where the time for tunneling to the target nuclei is on the order of femtoseconds.
+
+The time delay
+must be chosen
+to allow for full population transfer via tunneling,
+
+and the dump pulse
+is chosen
+to remove energy from the state to avoid tunneling back to the original proton.
+
+Finally, we
+study
+the effect of the nuclear kinetic energy on the transfer efficiency.
+
+Even in the absence of relative motion between the protons,
+
+the spreading of the nuclear wave function
+is
+enough to reduce the yield of electronic transfer to less than one half.
+
+-----------------------4---------------------
+We
+show
+that maximal families of mutually unbiased bases are characterized in all dimensions by partitioned unitary error bases, up to a choice of a family of Hadamards.
+
+Furthermore, we
+give
+a new construction of partitioned unitary error bases, and thus maximal families of mutually unbiased bases, from a finite field, which is simpler and more direct than previous proposals.
+
+We
+introduce
+new tensor diagrammatic characterizations of maximal families of mutually unbiased bases, partitioned unitary error bases, and finite fields as algebraic structures defined over Hilbert spaces.
+
+-----------------------5---------------------
+We
+develop
+a quantum-classical hybrid algorithm for function optimization
+that is
+particularly useful in the training of neural networks since it
+makes
+use of particular aspects of high-dimensional energy landscapes.
+
+
+Due to a recent formulation of semi-supervised learning as an optimization problem,
+
+the algorithm
+can
+further be used to find the optimal model parameters for deep generative models.
+
+In particular, we
+present
+a truncated saddle-free Newton's method based on recent insight from optimization, analysis of deep neural networks and random matrix theory.
+
+By combining these with the specific quantum subroutines
+
+we
+are
+able to exhaust quantum computing in order to arrive at a new quantum-classical hybrid algorithm design.
+
+Our algorithm
+is
+expected to perform at least as well as existing classical algorithms while achieving a polynomial speedup.
+
+The speedup
+is
+limited by the required classical read-out.
+
+Omitting this requirement can in theory lead to an exponential speedup.
+
+-----------------------6---------------------
+The act of describing how a physical process changes a system is the basis for understanding observed phenomena.
+
+For quantum-mechanical processes in particular,
+
+the affect of processes on quantum states profoundly
+advances
+our knowledge of the natural world, from understanding counter-intuitive concepts to the development of wholly quantum-mechanical technology.
+
+Here, we
+show
+that quantum-mechanical processes can be quantified using a generic classical-process model through which any classical strategies of mimicry can be ruled out.
+
+We
+demonstrate
+the success of this formalism using fundamental processes postulated in quantum mechanics, the dynamics of open quantum systems, quantum-information processing, the fusion of entangled photon pairs, and the energy transfer in a photosynthetic pigment-protein complex.
+
+Since our framework
+does not depend
+on any specifics of the states being processed, it reveals a new class of correlations in the hierarchy between entanglement and Einstein-Podolsky-Rosen steering and paves the way for the elaboration of a generic method for quantifying physical processes.
+
+-----------------------7---------------------
+In every experimental test of a Bell inequality,
+
+we
+are
+faced with the problem of inefficient detectors.
+
+How we treat the events when no particle
+was
+detected has a big influence on the properties of the inequality.
+
+In this work, we
+study
+this influence.
+
+We
+show
+that the choice of post-processing
+can
+change the critical detection efficiency, the equivalence between different inequalities or the applicability of the non-signaling principle.
+
+We also
+consider
+the problem of choosing the optimal post-processing strategy.
+
+We
+show
+that this is a non-trivial problem and that different strategies are optimal for different ranges of detector efficiencies.
+
+-----------------------8---------------------
+We
+present
+an alternative form of master equation, applicable on the analysis of non-equilibrium dynamics of fermionic open quantum systems.
+
+The formalism
+considers
+a general scenario, composed by a multipartite quantum system in contact with several reservoirs, each one with a specific chemical potential and in thermal equilibrium.
+
+With the help of Jordan-Wigner transformation, we
+perform
+a fermion-to-qubit mapping to derive a set of Lindblad superoperators that
+can
+be straightforwardly used on a wide range of physical setups.
+
+To illustrate our approach, we
+explore
+the effect of a charge sensor, acting as a probe, over the dynamics of electrons on coupled quantum molecules. The probe consists on a quantum dot attached to source and drain leads, that allows a current flow. The dynamics of populations, entanglement degree and purity show how the probe is behind the sudden deaths and rebirths of entanglement, at short times. Then, the evolution leads the system to an asymptotic state being a statistical mixture. Those are signatures that the probe induces dephasing, a process that destroys the coherence of the quantum system.
+
+-----------------------9---------------------
+Applications that envisage utilizing the orbital angular momentum (OAM) at the single photon level
+assume
+that the OAM degrees of freedom that the photons inherit from the classical wave solutions are orthogonal.
+
+To test this critical assumption, we
+quantize
+the beam-like solutions of the vector Helmholtz equation from first principles to delineate its elementary quantum mechanical degrees of freedom.
+
+We
+show
+that although the beam-photon operators do not in general satisfy the canonical commutation relations, implying that the photon states they create are not orthogonal,
+
+the states
+are nevertheless
+bona fide eigenstates of the number and Hamiltonian operators.
+
+The explicit representation for the photon operators presented in this work
+forms
+a natural basis to study light-matter interactions and quantum information processing at the single photon level.
+
+-----------------------10---------------------
+We
+present
+an alternative collision model to simulate the dynamics of an open quantum system.
+
+In our model, the unit to represent the environment
+is,
+instead of the single particle, the block which is consisted of a number of environment particles.
+
+The introduced blocks enable us to
+study
+the effects of different strategies of system-environment interactions and states of the blocks on the non-Markovianties.
+
+We
+demonstrate
+our idea in the Gaussian channels of an all-optical system.
+
+We
+show
+that the non-Markovianity of the channel working in the strategy that the system
+collides
+with environmental particles in each block in a certain order will be affected by the size of the block and the embedded entanglement.
+
+We
+find
+that the effects of heating and squeezing the vacuum environmental state will quantitatively enhance the non-Markovianity.
+
+-----------------------11---------------------
+Exploiting photonic high-dimensional entanglement
+allows
+one to expand the bandwidth of quantum communication and information processing protocols through increased photon information capacity.
+
+However, the characterization of entanglement in higher dimensions
+is
+experimentally challenging because the number of measurements required scales unfavourably with dimension.
+
+While bounds
+can
+be used to certify high-dimensional entanglement, they do not quantify the degree to which quantum states are entangled.
+
+Here, we
+propose
+a quantitative measure that is both an entanglement measure and a dimension witness, which we coin the P-concurrence.
+
+We
+derive
+this measure by requiring entanglement to extend to qubit subspaces that constitute the high-dimensional state.
+
+The computation of the P-concurrence is not contingent on reconstructing the full density matrix, and
+requires
+less measurements compared to standard quantum state tomography by orders of magnitude.
+
+This
+allows
+for faster and more efficient characterization of high-dimensional quantum states.
+
+-----------------------12---------------------
+Single-photon wave packets
+can
+carry quantum information between nodes of a quantum network.
+
+An important general operation in photon-based quantum information systems is blind reversal of a photon's temporal wave-packet envelope, that is, the ability to reverse an envelope without knowing the temporal state of the photon.
+
+We
+present
+an all-optical means for doing so, using nonlinear-optical frequency conversion driven by a short pump pulse.
+
+This scheme
+allows
+for quantum operations such as a temporal-mode parity sorter.
+
+We also
+verify
+that the scheme works for arbitrary states (not only single-photon ones) of an unknown wave packet.
+
+-----------------------13---------------------
+Referring to a Fano-type model qualitative analogy we
+develop
+a comprehensive basic mechanism for the laser control of the non-Markovian bath response in strongly coupled Open Quantum Systems (OQS).
+
+A converged Hierarchy Equations Of Motion (HEOM)
+is
+worked out to numerically solve the master equation of a spin-boson Hamiltonian to reach the reduced electronic density matrix of a heterojunction in the presence of strong THz laser pulses.
+
+Robust and efficient control
+is achieved
+increasing by a factor ?2 non-Markovianity measured by the time evolution of the volume of accessible states.
+
+The consequences of such fields on the central system populations and coherence are examined, putting the emphasis on the relation between the increase of non- Markovianity and the slowing down of decoherence processes.
+
+-----------------------14---------------------
+We
+survey
+some recent work on topological quantum computation with gapped boundaries and boundary defects and list some open problems.
+
+-----------------------15---------------------
+The Schr\"{o}dinger equation ψ"(x)+κ2ψ(x)=0 where κ2=k2−V(x) is rewritten as a more popular form of a second order differential equation through taking a similarity transformation ψ(z)=ϕ(z)u(z) with z=z(x).
+
+The Schr\"{o}dinger invariant IS(x)
+can
+be calculated directly by the Schwarzian derivative {z,x} and the invariant I(z) of the differential equation uzz+f(z)uz+g(z)u=0.
+
+We
+find
+an important relation for moving particle as ∇2=−IS(x) and thus
+explain
+the reason why the Schr\"{o}dinger invariant IS(x) keeps constant.
+
+As an illustration, we
+take
+the typical Heun differential equation as an object to construct a class of soluble potentials and generalize the previous results through choosing different ρ=z′(x) as before.
+
+We
+get
+a more general solution z(x) through integrating (z′)2=α1z2+β1z+γ1 directly and it includes all possibilities for those parameters.
+
+Some particular cases are discussed in detail.
+
+-----------------------16---------------------
+There is yet no satisfying, agreed-upon interpretation of the quantum-mechanical formalism.
+
+Discussions of different interpretations are ongoing and sometimes hotheaded.
+
+In this note, we
+want
+to make a clear distinction between the (mathematical) quantum formalism -- and
+show
+that there is actually more than one -- and its interpretation.
+
+We further
+propose
+a novel (somewhat minimalistic) reading of the relative-state formalism and argue that the formalism is different from the standard Born and measurement-update rule, regardless of its interpretation.
+
+To do so we
+consider
+observations of observers -- Wigner's-friend-type experiments -- the feasibility of which remains an open question.
+
+-----------------------17---------------------
+We
+consider
+a dissipative evolution of parametrically-driven qubits-cavity system under the periodical modulation of coupling energy between two subsystems, which
+leads
+to the amplification of counterrotating processes.
+
+We
+reveal
+a very rich dynamical behavior of this hybrid system.
+
+In particular, we
+find
+that the energy dissipation in one of the subsystems can
+enhance
+quantum effects in another subsystem.
+
+For instance, optimal cavity decay
+assists
+to stabilize entanglement and quantum correlations between qubits even in the steady state and to compensate finite qubit relaxation.
+
+On the contrary, energy dissipation in qubit subsystem
+results
+in the enhanced photon production from vacuum for strong modulation, but
+destroys
+both quantum concurrence and quantum mutual information between qubits.
+
+Our results
+provide
+deeper insights to nonstationary cavity quantum electrodynamics in context of quantum information processing and might be of importance for dissipative quantum state engineering.
+
+-----------------------18---------------------
+Stabilizer codes are a simple and successful class of quantum error-correcting codes.
+
+Yet this success comes in spite of some harsh limitations on the ability of these codes to fault-tolerantly compute.
+
+Here we
+introduce
+a new metric for these codes, the disjointness, which, roughly speaking, is the number of mostly non-overlapping representatives of any given non-trivial logical Pauli operator.
+
+We
+use
+the disjointness to prove that transversal gates on error-detecting stabilizer codes are necessarily in a finite level of the Clifford hierarchy.
+
+We also
+apply
+our techniques to topological code families to find similar bounds on the level of the hierarchy attainable by constant depth circuits, regardless of their geometric locality.
+
+For instance, we can
+show
+that symmetric 2D surface codes cannot have non-local constant depth circuits for non-Clifford gates.
+
+-----------------------19---------------------
+Wigner rotations are transformations that affect spinning particles and cause the observable phenomenon of Thomas precession.
+
+Here
+we
+study these rotations for arbitrary symmetry groups with a semi-direct product structure.
+
+In particular we
+establish
+a general link between Wigner rotations and Thomas precession by relating the latter to the holonomies of a certain Berry connection on a momentum orbit.
+
+Along the way we
+derive
+a formula for infinitesimal, Lie-algebraic transformations of one-particle states.
+
+-----------------------20---------------------
