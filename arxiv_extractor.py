@@ -9,12 +9,17 @@ from nltk.tree import ParentedTree
 def get_page_documents_dict_tags():
     with open('Quantum Physics news.html', encoding='utf-8') as page:
         soup = BeautifulSoup(page, 'html.parser')
-    tags = soup.find(id='dlpage').find('dl')
-    document_tags = [*zip(tags.find_all('dd'), tags.find_all('dt'))]
-    return [{'author': document[0].find(class_='list-authors'), 'title': document[0].find(class_='list-title mathjax'),
-             'subjects': document[0].find(class_='list-subjects'), 'comments': document[0].find(class_='list-comments'),
-             'link': document[1].find(class_='list-identifier'), 'content': document[0].find('p')}
-            for document in document_tags]
+    dl_tags = soup.find(id='dlpage').find_all('dl')[:2]
+    documents = []
+    for dl_tag in dl_tags:
+        document_tags = [*zip(dl_tag.find_all('dd'), dl_tag.find_all('dt'))]
+        documents.extend(
+            [{'author': document[0].find(class_='list-authors'), 'title': document[0].find(class_='list-title mathjax'),
+              'subjects': document[0].find(class_='list-subjects'),
+              'comments': document[0].find(class_='list-comments'),
+              'link': document[1].find(class_='list-identifier'), 'content': document[0].find('p')}
+             for document in document_tags])
+    return documents
 
 
 # Breadth First Search the tree and take the first noun in the NP subtree.
