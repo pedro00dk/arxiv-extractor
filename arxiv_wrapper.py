@@ -1,11 +1,10 @@
 import nltk
-import requests
 from bs4 import BeautifulSoup
 
 
-def get_page_documents_dict_tags(link):
-    page = requests.get(link)
-    soup = BeautifulSoup(page.text, 'html.parser')
+def get_page_documents_dict_tags():
+    with open('Quantum Physics news.html', encoding='utf-8') as page:
+        soup = BeautifulSoup(page, 'html.parser')
     tags = soup.find(id='dlpage').find('dl')
     document_tags = [*zip(tags.find_all('dd'), tags.find_all('dt'))]
     return [{'author': document[0].find(class_='list-authors'), 'title': document[0].find(class_='list-title mathjax'),
@@ -79,7 +78,7 @@ def get_relations(content_div):
     return relations
 
 
-documents_dicts_tags = get_page_documents_dict_tags('https://arxiv.org/list/quant-ph/new')
+documents_dicts_tags = get_page_documents_dict_tags()[:20]
 documents_templates = []
 for document_dicts_tags in documents_dicts_tags:
     documents_templates.append({
