@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def get_page_documents_grouped_tags(link):
+def get_page_documents_dict_tags(link):
     page = requests.get(link)
     soup = BeautifulSoup(page.text, 'html.parser')
     tags = soup.find(id='dlpage').find('dl')
@@ -34,8 +34,8 @@ def get_link(link_div):
     return link_div.find('a').text.strip()
 
 
-def get_relations(abstract_div):
-    text = abstract_div.text
+def get_relations(content_div):
+    text = content_div.text
     sentences = nltk.sent_tokenize(text)
     tokenized_sentences = [nltk.word_tokenize(sentence) for sentence in sentences]
     tagged_sentences = [nltk.pos_tag(sentence) for sentence in tokenized_sentences]
@@ -55,7 +55,7 @@ def get_relations(abstract_div):
         for index, (word, clazz) in enumerate(sentence):
             if len(actors[0]) == 0 and clazz in ['IN', 'CC']:
                 continue
-            if relation is None and clazz not in ['VBD', 'VBP', 'VBZ', 'VBZ']:
+            if relation is None and clazz not in ['VBD', 'VBP', 'VBZ']:
                 actors[0].append(word)
             elif relation is None:
                 relation = word
@@ -63,7 +63,7 @@ def get_relations(abstract_div):
                 if clazz == 'CC':
                     found_verb = False
                     for i in range(index + 1, len(sentence)):
-                        found_verb = sentence[i][1] in ['VBD', 'VBP', 'VBZ', 'VBZ']
+                        found_verb = sentence[i][1] in ['VBD', 'VBP', 'VBZ']
                         if found_verb:
                             break
                     if found_verb:
@@ -79,20 +79,26 @@ def get_relations(abstract_div):
     return relations
 
 
-documents_tags = get_page_documents_grouped_tags('https://arxiv.org/list/quant-ph/new')
-
-documents = []
-
-for document_tags in documents_tags:
-    documents.append({
-        'author': get_author_names(document_tags['author']),
-        'title': get_title(document_tags['title']),
-        'subjects': get_subjects(document_tags['subjects']),
-        'comments': get_comments(document_tags['comments']),
-        'link': get_link(document_tags['link']),
-        'content': get_relations(document_tags['content']),
+documents_dicts_tags = get_page_documents_dict_tags('https://arxiv.org/list/quant-ph/new')
+documents_templates = []
+for document_dicts_tags in documents_dicts_tags:
+    documents_templates.append({
+        'author': get_author_names(document_dicts_tags['author']),
+        'title': get_title(document_dicts_tags['title']),
+        'subjects': get_subjects(document_dicts_tags['subjects']),
+        'comments': get_comments(document_dicts_tags['comments']),
+        'link': get_link(document_dicts_tags['link']),
+        'relations': get_relations(document_dicts_tags['content']),
     })
 
-import pprint
-
-pprint.PrettyPrinter(4, 200).pprint(documents[0]['content'])
+print('wrapper result')
+for document_template in documents_templates:
+    print('title: %s' % document_template['title'])
+    print('\tauthor: %s' % document_template['author'])
+    print('\tsubjects: %s' % document_template['subjects'])
+    print('\tcomments: %s' % document_template['comments'])
+    print('\tlink: %s' % document_template['link'])
+    print('\trelations: (%d)' % len(document_template['relations']))
+    for (relation, (actor1, actor2)) in document_template['relations']:
+        print('%s (%s -> %s)' % (relation, ' '.join(actor1), ' '.join(actor2)))
+    print()
